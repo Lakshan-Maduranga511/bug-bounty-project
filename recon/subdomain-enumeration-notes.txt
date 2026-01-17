@@ -1,0 +1,13 @@
+﻿Subdomain Enumeration Notes
+============================
+
+For production environments, we would use:
+- Amass: Comprehensive subdomain discovery
+- Sublist3r: Python-based subdomain finder
+- Certificate Transparency logs
+- DNS brute-forcing
+
+For localhost environment:
+- No subdomains exist
+- Single domain: localhost
+- Single IP: 127.0.0.1

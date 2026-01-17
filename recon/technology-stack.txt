@@ -1,0 +1,9 @@
+﻿Technology Stack Analysis
+========================
+
+Web Server: Apache 2.4.25
+Backend Language: PHP 5.x
+Database: MySQL
+Framework: None (vanilla PHP)
+JavaScript Libraries: None visible
+Security Headers: Missing (X-Frame-Options, CSP, etc.)

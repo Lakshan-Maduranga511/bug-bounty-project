@@ -1,0 +1,52 @@
+# Nmap 7.98 scan initiated Fri Jan 16 08:38:56 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -oN recon/nmap-scans/service-scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000085s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Apache httpd 2.4.25 ((Debian))
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL 8.0.41
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8080/tcp open  http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.98%I=7%D=1/16%Time=6969ABD3%P=i686-pc-windows-windows%
+SF:r(GetRequest,64B,"HTTP/1\.1\x20200\x20OK\r\nConnection:\x20close\r\nCac
+SF:he-control:\x20no-cache,\x20no-store\r\nPragma:\x20no-cache\r\nX-Frame-
+SF:Options:\x20DENY\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nX-C
+SF:ontent-Type-Options:\x20nosniff\r\n\r\n<html><head><title>Burp\x20Suite
+SF:\x20Community\x20Edition</title>\r\n<style\x20type=\"text/css\">\r\nbod
+SF:y\x20{\x20background:\x20#dedede;\x20font-family:\x20Arial,\x20sans-ser
+SF:if;\x20color:\x20#404042;\x20-webkit-font-smoothing:\x20antialiased;\x2
+SF:0}\r\n#container\x20{\x20padding:\x200\x2015px;\x20margin:\x2010px\x20a
+SF:uto;\x20background-color:\x20#ffffff;\x20}\r\na\x20{\x20word-wrap:\x20b
+SF:reak-word;\x20}\r\na:link,\x20a:visited\x20{\x20color:\x20#e06228;\x20t
+SF:ext-decoration:\x20none;\x20}\r\na:hover,\x20a:active\x20{\x20color:\x2
+SF:0#404042;\x20text-decoration:\x20underline;\x20}\r\nh1\x20{\x20font-siz
+SF:e:\x201\.6em;\x20line-height:\x201\.2em;\x20font-weight:\x20normal;\x20
+SF:color:\x20#404042;\x20}\r\nh2\x20{\x20font-size:\x201\.3em;\x20line-hei
+SF:ght:\x201\.2em;\x20padding:\x200;\x20margin:\x200\.8em\x200\x200\.3em\x
+SF:200;\x20font-weight:\x20normal;\x20color:\x20#404042;}\r\n\.title,\x20\
+SF:.navbar\x20{\x20color:\x20#ffffff;\x20background:\x20#e06228;\x20paddin
+SF:g:\x2010px\x2015px;\x20")%r(HTTPOptions,64B,"HTTP/1\.1\x20200\x20OK\r\n
+SF:Connection:\x20close\r\nCache-control:\x20no-cache,\x20no-store\r\nPrag
+SF:ma:\x20no-cache\r\nX-Frame-Options:\x20DENY\r\nContent-Type:\x20text/ht
+SF:ml;\x20charset=utf-8\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n<html
+SF:><head><title>Burp\x20Suite\x20Community\x20Edition</title>\r\n<style\x
+SF:20type=\"text/css\">\r\nbody\x20{\x20background:\x20#dedede;\x20font-fa
+SF:mily:\x20Arial,\x20sans-serif;\x20color:\x20#404042;\x20-webkit-font-sm
+SF:oothing:\x20antialiased;\x20}\r\n#container\x20{\x20padding:\x200\x2015
+SF:px;\x20margin:\x2010px\x20auto;\x20background-color:\x20#ffffff;\x20}\r
+SF:\na\x20{\x20word-wrap:\x20break-word;\x20}\r\na:link,\x20a:visited\x20{
+SF:\x20color:\x20#e06228;\x20text-decoration:\x20none;\x20}\r\na:hover,\x2
+SF:0a:active\x20{\x20color:\x20#404042;\x20text-decoration:\x20underline;\
+SF:x20}\r\nh1\x20{\x20font-size:\x201\.6em;\x20line-height:\x201\.2em;\x20
+SF:font-weight:\x20normal;\x20color:\x20#404042;\x20}\r\nh2\x20{\x20font-s
+SF:ize:\x201\.3em;\x20line-height:\x201\.2em;\x20padding:\x200;\x20margin:
+SF:\x200\.8em\x200\x200\.3em\x200;\x20font-weight:\x20normal;\x20color:\x2
+SF:0#404042;}\r\n\.title,\x20\.navbar\x20{\x20color:\x20#ffffff;\x20backgr
+SF:ound:\x20#e06228;\x20padding:\x2010px\x2015px;\x20");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 16 08:41:16 2026 -- 1 IP address (1 host up) scanned in 140.13 seconds

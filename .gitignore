@@ -1,0 +1,17 @@
+# SQLMap session files
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak

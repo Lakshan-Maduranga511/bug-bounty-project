@@ -1,0 +1,18 @@
+﻿DVWA Application Structure
+==========================
+
+URLs Found:
+- http://localhost/login.php - Login page
+- http://localhost/index.php - Dashboard
+- http://localhost/vulnerabilities/xss_r/ - Reflected XSS
+- http://localhost/vulnerabilities/xss_s/ - Stored XSS
+- http://localhost/vulnerabilities/sqli/ - SQL Injection
+- http://localhost/vulnerabilities/fi/ - File Inclusion
+- http://localhost/vulnerabilities/upload/ - File Upload
+
+User Input Points:
+- Login form: username; password
+- Reflected XSS: input field 'name' on xss_r
+- Stored XSS: comment field on xss_s
+- SQLi: id parameter on sqli page
+- File upload: upload form on upload page
